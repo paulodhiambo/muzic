@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="wf_waveform_color" format="color"/>
+
+    <declare-styleable name="WaveFormView">
+        <attr name="wf_waveform_color"/>
+        <attr name="wf_waveform_max_scale" format="float"/>
+
+        <attr name="wf_time_text_color" format="color"/>
+        <attr name="wf_time_text_size" format="dimension"/>
+
+        <attr name="wf_time_label_color" format="color"/>
+        <attr name="wf_time_label_height" format="dimension"/>
+        <attr name="wf_time_label_width" format="dimension"/>
+        <attr name="wf_time_label_min_space" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="WaveFormThumbView">
+        <attr name="wf_waveform_color"/>
+        <attr name="wf_waveform_highlight_color" format="color"/>
+
+    </declare-styleable>
+    <declare-styleable name="SupportDarkenFrameLayout">
+        <attr name="how_dark" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="BlurImageViewChildConstraintLayout">
+        <attr name="imageViewId" format="reference"/>
+        <attr name="shadowDeltaLeft" format="dimension"/>
+        <attr name="shadowDeltaTop" format="dimension"/>
+        <attr name="shadowDeltaRight" format="dimension"/>
+        <attr name="shadowDeltaBottom" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="RoundClippingFrameLayout">
+        <attr name="round_clip_back_color" format="color"/>
+        <attr name="round_clip_number" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="DarkenAndRoundedBackgroundConstraintLayout">
+
+        <attr name="round_number" format="float"/>
+        <attr name="background_alpha" format="float"/>
+        <attr name="round_back_color" format="color"/>
+        <attr name="round_type" format="enum">
+            <enum name="TOP" value="0"/>
+            <enum name="ALL" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircularPlayPauseProgressBar">
+        <attr name="iconTint" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ToggleButton">
+        <attr name="maskColor" format="color"/>
+    </declare-styleable>
+</resources>
