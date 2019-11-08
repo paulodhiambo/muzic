@@ -1,6 +1,4 @@
-# RD Music Player - Redefined Music Player
-**A pretty UI&UX Music Player**
-
+# Music Player
 ## Features
 * Dark Theme Style with wallpaper as background
 * Single activity, all fragments architecture with fancy animation
@@ -18,10 +16,8 @@ The app will be available in Google Play Store soon.
 Comming soon
 ```
 ### APK
-Download apk file here [Music Player v1715](https://github.com/dtrung98/Source/raw/master/music_player_v17_15.apk)
-```
-https://github.com/dtrung98/Source/raw/master/music_player_v17_15.apk
-```
+Download apk file here [Muzic Player](https://github.com/paulodhiambo/muzic/blob/master/app/app-release%5B1%5D.apk)
+
 ## Screenshots
 </br>
 <div align="center">
@@ -65,18 +61,11 @@ src="https://user-images.githubusercontent.com/33343210/61764970-4eb40180-ae05-1
   </div>
 </br>
 
-## Authors
-
-* **Le Dinh Trung (ldt)** - *Initial work* - [dtrung98](https://github.com/dtrung98)
-
-
 ### License
 
 * This project is licensed under The GNU General Public License v3.0 - see the [LICENSE.md](/LICENSE) file for details
 
 ### Acknowledgments
-
-* Hat tip to anyone who's code was used
 * Inspiration
 * etc
 
