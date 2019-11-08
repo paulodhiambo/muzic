@@ -88,8 +88,17 @@ public class GenreLoader {
 
     public  static ArrayList<Genre> getGenreForArtist(Context context, @NonNull long artistID) {
         // a list of song that belong to an artist
-        Cursor cursor = GenreLoader.getGenreCursorForArtist(context, artistID);
+        Cursor cursor=null;
+        try {
+            cursor = GenreLoader.getGenreCursorForArtist(context, artistID);
+
+        }
+        catch (Exception e)
+        {
+            e.getMessage();
+        }
         return GenreLoader.getGenresFromCursor(context,cursor);
+
     }
     public static Cursor getGenreCursorForArtist(final  Context context, long artistId) {
         String query = " _id in (select genre_id from audio_genres_map where audio_id in (select _id from audio_meta where "+SongLoader.BASE_SELECTION+" AND artist_id = "+artistId+"))" ;

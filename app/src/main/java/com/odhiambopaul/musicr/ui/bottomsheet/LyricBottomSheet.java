@@ -180,6 +180,9 @@ public class LyricBottomSheet extends BottomSheetDialogFragment  implements Musi
     }
 
     @BindView(R.id.title) TextView mTitle;
+
+    ///
+    @Nullable
     @BindView(R.id.description) TextView mDescription;
     @BindView(R.id.image)
     ImageView mImageView;

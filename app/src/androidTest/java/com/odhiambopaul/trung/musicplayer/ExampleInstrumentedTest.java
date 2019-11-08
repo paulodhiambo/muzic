@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.trung.myapplication", appContext.getPackageName());
+        assertEquals("com.odhiambopaul.trung.musicplayer", appContext.getPackageName());
     }
 }

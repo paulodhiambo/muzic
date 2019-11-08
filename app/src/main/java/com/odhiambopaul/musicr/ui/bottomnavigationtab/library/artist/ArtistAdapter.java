@@ -290,11 +290,17 @@ public class ArtistAdapter extends AbsMediaAdapter<AbsBindAbleHolder, Artist> im
 
         @Override
         protected ArrayList<Genre> doInBackground(Void... voids) {
+            try {
+                if(mAAReference.get()!=null&&mArtist!=null&&!mCancelled) {
 
-            if(mAAReference.get()!=null&&mArtist!=null&&!mCancelled) {
-                return GenreLoader.getGenreForArtist(mAAReference.get().mContext, mArtist.getId());
+                }
+                return null;
             }
-            return null;
+            catch (Exception e)
+            {
+                e.getMessage();
+            }
+            return GenreLoader.getGenreForArtist(mAAReference.get().mContext, mArtist.getId());
         }
 
         @Override
