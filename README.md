@@ -68,4 +68,8 @@ src="https://user-images.githubusercontent.com/33343210/61764970-4eb40180-ae05-1
 ### Acknowledgments
 * Inspiration
 * etc
+### Blog
+<a href="https://dev.to/paulodhiambo">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="paul odhiambo's DEV Profile" height="30" width="30">
+</a>
 
